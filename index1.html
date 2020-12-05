@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Product Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="toggle">
+                <p class="logo">Logo</p>
+                <i class="fas fa-bars" onclick="moveNav()"></i>
+            </div>
+            <div class="nav-bar">
+                <i class="fas fa-times" onclick="closeNav()"></i>
+                <p class="logo">Logo</p>
+
+                <div class="navigation">
+                    <a href="#">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#review">Reviews</a>
+                    <a href="#pricing">Pricing</a>
+                    <button class="buynow">Buy Now</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="hero-section">
+            <div class="hero-section-image">
+                <img src="https://assetsprx.matchesfashion.com/img/product/1341277_1_zoom.jpg" alt="">
+            </div>
+
+            <div class="hero-section-text">
+                <h1>Lorem ipsum dolor sit.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <button class="buynow">Buy now</button>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+
+            <div class="features-sec-1">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+
+            <div class="features-sec-2">
+                <div class="box">
+                    <i class="fas fa-volume-up"></i>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel laborum sit maiores praesentium deleniti.</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-tag"></i>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel laborum sit maiores praesentium deleniti.</p>                </div>
+                <div class="box">
+                    <i class="fas fa-phone-volume"></i>
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel laborum sit maiores praesentium deleniti.</p>                </div>
+            </div>
+        </section>
+
+        <section class="features-2">
+            <div class="feature-2-text">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos nihil quas blanditiis omnis minus, harum quos autem quis pariatur.</p>
+                <button class="buynow">Buy Now</button>
+            </div>
+
+            <div class="feature-2-image">
+                <img src="https://assetsprx.matchesfashion.com/img/product/1341277_3_zoom.jpg" alt="" class="images">
+            </div>
+        </section>
+
+        <section class="features-3">
+            <div class="feature-3-text">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos nihil quas blanditiis omnis minus, harum quos autem quis pariatur.</p>
+                <button class="buynow">Buy Now</button>
+            </div>
+
+            <div class="feature-3-image">
+                <img src="https://assetsprx.matchesfashion.com/img/product/1341277_4_zoom.jpg" alt="" class="images">
+            </div>
+        </section>
+
+
+        <section class="pricing" id="pricing">
+            <div class="price-sec-1">
+                <img src="https://assetsprx.matchesfashion.com/img/product/1341277_1_zoom.jpg" alt="" class="images">
+            </div>
+
+            <div class="price-sec-2">
+                <h2>Lorem, ipsum.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <br>
+                <h2>Colors</h2>
+                <div class="colors">
+                    <div class="color red"></div>
+                    <div class="color orange"></div>
+                    <div class="color blue"></div>
+                </div>
+                <br>
+                <h2>$299.99</h2>
+                <br>
+                <button class="buynow">Buy Now</button>
+            </div>
+        </section>
+
+
+        <section class="review" id="review">
+            <div class="contain">
+                <div class="review-image"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis amet repellendus officia tempora neque quas enim libero earum atque modi?</p>
+                <p>-Name</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="app1.js"></script>
+
+</body>
+</html>
